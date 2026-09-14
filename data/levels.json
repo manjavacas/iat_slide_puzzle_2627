@@ -247,5 +247,53 @@
         }
       ]
     }
+    ,
+    {
+      "name": "Nivel 4",
+      "rows": 8,
+      "cols": 8,
+      "exit": [8, 3, 1, 1],
+      "pieces": [
+        {"id": 0, "x": 1, "y": 3, "w": 1, "h": 1, "is_target": true},
+
+        {"id": 1, "x": 2, "y": 1, "w": 1, "h": 2, "is_target": false},
+        {"id": 2, "x": 2, "y": 4, "w": 1, "h": 2, "is_target": false},
+
+        {"id": 3, "x": 3, "y": 2, "w": 1, "h": 1, "is_target": false},
+        {"id": 4, "x": 3, "y": 4, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 5, "x": 5, "y": 0, "w": 1, "h": 1, "is_target": false},
+        {"id": 6, "x": 6, "y": 0, "w": 1, "h": 1, "is_target": false},
+        {"id": 7, "x": 4, "y": 1, "w": 1, "h": 1, "is_target": false},
+        {"id": 8, "x": 5, "y": 1, "w": 1, "h": 1, "is_target": false},
+        {"id": 9, "x": 6, "y": 1, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 10, "x": 4, "y": 2, "w": 1, "h": 1, "is_target": false},
+        {"id": 11, "x": 5, "y": 2, "w": 1, "h": 1, "is_target": false},
+        {"id": 12, "x": 6, "y": 2, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 13, "x": 4, "y": 3, "w": 1, "h": 1, "is_target": false},
+        {"id": 14, "x": 5, "y": 3, "w": 1, "h": 1, "is_target": false},
+        {"id": 15, "x": 6, "y": 3, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 16, "x": 4, "y": 4, "w": 1, "h": 1, "is_target": false},
+        {"id": 17, "x": 5, "y": 4, "w": 1, "h": 1, "is_target": false},
+        {"id": 18, "x": 6, "y": 4, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 19, "x": 5, "y": 5, "w": 2, "h": 1, "is_target": false},
+
+        {"id": 20, "x": 0, "y": 0, "w": 1, "h": 1, "is_target": false},
+        {"id": 21, "x": 0, "y": 1, "w": 1, "h": 1, "is_target": false},
+        {"id": 22, "x": 0, "y": 2, "w": 1, "h": 1, "is_target": false},
+        {"id": 23, "x": 0, "y": 4, "w": 1, "h": 1, "is_target": false},
+        {"id": 24, "x": 0, "y": 5, "w": 1, "h": 1, "is_target": false},
+        {"id": 25, "x": 1, "y": 0, "w": 1, "h": 1, "is_target": false},
+        {"id": 26, "x": 1, "y": 2, "w": 1, "h": 1, "is_target": false},
+        {"id": 27, "x": 1, "y": 4, "w": 1, "h": 1, "is_target": false},
+
+        {"id": 28, "x": 2, "y": 0, "w": 1, "h": 1, "is_target": false},
+        {"id": 29, "x": 3, "y": 0, "w": 1, "h": 1, "is_target": false}
+      ]
+    }
   ]
 }

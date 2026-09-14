@@ -41,6 +41,7 @@ def run_headless(state: State, algorithm_name: str):
     moves, elapsed = solve(state, algorithm_name)
     if moves is None:
         print("No se ha encontrado solución.")
+        print(f"Tiempo de ejecución: {elapsed:.3f}s")
         return
     print(f"Solución encontrada en {elapsed:.3f}s con {len(moves)} deslizamientos:")
     for i, direction in enumerate(moves, 1):
@@ -62,7 +63,7 @@ def run_gui(state: State, level_name: str, initial_algorithm: str = None):
 
         if moves is None:
             gui.status_message = (
-                f"{name}: no se encontró solución desde el estado actual"
+                f"{name}: no se encontró solución desde el estado actual ({elapsed:.3f}s)"
             )
             gui.solving = False
             gui.draw()
@@ -77,7 +78,7 @@ def run_gui(state: State, level_name: str, initial_algorithm: str = None):
 
         gui.solving = False
         if current.is_goal():
-            gui.status_message = f"{name}: ¡resuelto en {len(moves)} deslizamientos!"
+            gui.status_message = f"{name}: ¡resuelto en {len(moves)} deslizamientos en {elapsed:.3f}s!"
         gui.draw()
 
     def on_reset():
